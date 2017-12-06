@@ -43,10 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Objects\BinaryTree.cs" />
-    <Compile Include="Objects\CircularLinkedList.cs" />
-    <Compile Include="Objects\DoubleLinkedList.cs" />
+    <Compile Include="Objects\Graph.cs" />
     <Compile Include="Objects\LinkedList.cs" />
     <Compile Include="Objects\Node.cs" />
+    <Compile Include="Objects\Queue.cs" />
     <Compile Include="Objects\Stack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

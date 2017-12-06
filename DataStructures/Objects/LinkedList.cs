@@ -9,7 +9,8 @@ namespace DataStructures.Objects
     public class LinkedList<T> where T : IComparable
     {
         #region Members
-        private Node<T> Head { get; set; }
+        public Node<T> Head { get; set; }
+        public Node<T> Tail { get; set; }
 
         public int Count { get { return Size(Head); } }
         #endregion
@@ -17,7 +18,7 @@ namespace DataStructures.Objects
         #region Public Methods
         public LinkedList(T value)
         {
-            Head = new Node<T>(value);
+            Head = Tail = new Node<T>(value);
         }
 
         public bool Add(T value)
@@ -93,7 +94,7 @@ namespace DataStructures.Objects
             return count;
         }
 
-        private void Reverse(ref Node<T> head)
+        private void Reverse()
         {
 
         }
@@ -103,6 +104,7 @@ namespace DataStructures.Objects
             if (head == null)
             {
                 head = new Node<T>(value);
+                Tail = head;
             }
             else
             {
@@ -119,6 +121,9 @@ namespace DataStructures.Objects
                 var next = head.Next;
                 Remove(ref next, value);
                 head.Next = next;
+
+                if (head.Next == null)
+                    Tail = head;
 
                 if (head.Data.CompareTo(value) == 0)
                 {
