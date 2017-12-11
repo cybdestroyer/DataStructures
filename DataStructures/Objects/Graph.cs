@@ -5,11 +5,14 @@ namespace DataStructures.Objects
 {
     public class Graph
     {
+        #region Members
         private int[,] matrix { get; set; }
         private Dictionary<string, int> vertices { get; set; }
 
         public int VertexCount { get { return vertices.Keys.Count; } }
+        #endregion
 
+        #region Public Methods
         public Graph(int size)
         {
             matrix = new int[size, size];
@@ -90,7 +93,9 @@ namespace DataStructures.Objects
 
             return false;
         }
+        #endregion
 
+        #region Private Methods
         private bool Remove(string v)
         {
             return vertices.Remove(v);
@@ -150,5 +155,6 @@ namespace DataStructures.Objects
 
             return -1;
         }
+        #endregion  
     }
 }

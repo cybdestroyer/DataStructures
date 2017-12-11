@@ -40,5 +40,29 @@ namespace DataStructures.Tests
             Assert.AreEqual(3, graph.VertexCount);
             Assert.IsTrue(graph.AddVertex("Checkpoint 3"));
         }
+
+        [TestCategory("")]
+        public void TestMethod3()
+        {
+            string[] locations = {
+                "Home", "Grocery Store", "Gym", "Car Wash", "85th Park", "Cathedral", "School"
+            };
+
+            var graph = new Graph(10);
+            Assert.IsTrue(graph.AddVertex(locations[0]));
+            Assert.IsTrue(graph.AddVertex(locations[1]));
+            Assert.IsTrue(graph.AddVertex(locations[2]));
+            Assert.IsTrue(graph.AddVertex(locations[3]));
+            Assert.IsTrue(graph.AddVertex(locations[4]));
+            Assert.IsTrue(graph.AddVertex(locations[5]));
+            Assert.IsTrue(graph.AddVertex(locations[6]));
+
+            Assert.IsTrue(graph.AddEdge(locations[0], locations[1], 6));
+            Assert.IsTrue(graph.AddEdge(locations[0], locations[2], 3));
+            Assert.IsTrue(graph.AddEdge(locations[0], locations[3], 4));
+            Assert.IsTrue(graph.AddEdge(locations[0], locations[4], 10));
+            Assert.IsTrue(graph.AddEdge(locations[0], locations[5], 7));
+            Assert.IsTrue(graph.AddEdge(locations[0], locations[6], 1));
+        }
     }
 }
