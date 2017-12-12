@@ -93,6 +93,14 @@ namespace DataStructures.Objects
 
             return false;
         }
+
+        public int GetWeight(string v1, string v2)
+        {
+            var row = vertices[v1];
+            var column = vertices[v2];
+
+            return matrix[row, column];
+        }
         #endregion
 
         #region Private Methods
