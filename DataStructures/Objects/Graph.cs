@@ -96,10 +96,24 @@ namespace DataStructures.Objects
 
         public int GetWeight(string v1, string v2)
         {
-            var row = vertices[v1];
-            var column = vertices[v2];
+            try
+            {
+                var row = vertices[v1];
+                var column = vertices[v2];
 
-            return matrix[row, column];
+                return matrix[row, column];
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+            return 0;
+        }
+
+        public bool HasEdge(string v1, string v2)
+        {
+            return GetWeight(v1, v2) > 0;
         }
         #endregion
 

@@ -6,9 +6,9 @@ namespace DataStructures.Tests
     [TestClass]
     public class GraphUnitTests
     {
-        private string[] locations = {
-                "Home", "Grocery Store", "Gym", "Car Wash", "85th Park", "Cathedral", "School"
-            };
+        string[] locations = {
+            "Home", "Grocery Store", "Gym", "Car Wash", "85th Park", "Cathedral", "School"
+        };
 
         [TestMethod]
         [TestCategory("GPH - Basic")]
@@ -85,7 +85,7 @@ namespace DataStructures.Tests
             Assert.IsTrue(graph.AddVertex(locations[1]));
             Assert.IsTrue(graph.AddVertex(locations[2]));
             Assert.IsTrue(graph.AddVertex(locations[3]));
-            
+
             // Overflow vertices
             Assert.IsFalse(graph.AddVertex(locations[4]));
             Assert.IsFalse(graph.AddVertex(locations[5]));
