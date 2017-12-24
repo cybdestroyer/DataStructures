@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DataStructures.Objects
 {
-    public class Graph
+    public sealed class Graph
     {
         #region Members
         private int[,] matrix { get; set; }

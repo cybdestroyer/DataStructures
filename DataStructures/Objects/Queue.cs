@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures.Objects
 {
-    public class Queue<T> where T : IComparable
+    public sealed class Queue<T> where T : IComparable
     {
         private LinkedList<T> queue { get; set; }
 

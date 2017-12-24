@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures.Objects
 {
-    public class Stack<T> where T : IComparable
+    public sealed class Stack<T> where T : IComparable
     {
         private LinkedList<T> stack { get; set; }
 

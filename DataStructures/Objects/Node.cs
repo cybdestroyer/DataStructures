@@ -1,6 +1,6 @@
 ﻿namespace DataStructures.Objects
 {
-    public class Node<T>
+    public sealed class Node<T>
     {
         #region Next/Prev
         public Node<T> Next { get { return next; } set { next = value; } }

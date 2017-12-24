@@ -2,7 +2,7 @@
 
 namespace DataStructures.Objects
 {
-    public class BinaryTree<T> where T : IComparable
+    public sealed class BinaryTree<T> where T : IComparable
     {
         #region Members
         public int Depth { get { return MaxDepth(Root); } }

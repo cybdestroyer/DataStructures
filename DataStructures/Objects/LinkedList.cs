@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures.Objects
 {
-    public class LinkedList<T> where T : IComparable
+    public sealed class LinkedList<T> where T : IComparable
     {
         #region Members
         public Node<T> Head { get; set; }
