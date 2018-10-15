@@ -14,3 +14,20 @@ C:\Users\TeranL\Documents\Visual Studio 2017\Projects\DataStructures\DataStructu
 C:\Users\TeranL\Documents\Visual Studio 2017\Projects\DataStructures\DataStructures.Tests\obj\Debug\DataStructures.Tests.csproj.CoreCompileInputs.cache
 C:\Users\TeranL\Documents\Visual Studio 2017\Projects\DataStructures\DataStructures.Tests\obj\Debug\DataStructures.Tests.dll
 C:\Users\TeranL\Documents\Visual Studio 2017\Projects\DataStructures\DataStructures.Tests\obj\Debug\DataStructures.Tests.pdb
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\DataStructures.Tests.dll
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\DataStructures.Tests.pdb
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\DataStructures.exe
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\DataStructures.pdb
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\DataStructures.exe.config
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\obj\Debug\DataStructures.Tests.csprojAssemblyReference.cache
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\obj\Debug\DataStructures.Tests.csproj.CoreCompileInputs.cache
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\obj\Debug\DataStructures.Tests.csproj.CopyComplete
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\obj\Debug\DataStructures.Tests.dll
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures.Tests\obj\Debug\DataStructures.Tests.pdb

@@ -5,3 +5,9 @@ C:\Users\TeranL\Documents\Visual Studio 2017\Projects\DataStructures\DataStructu
 C:\Users\TeranL\Documents\Visual Studio 2017\Projects\DataStructures\DataStructures\obj\Debug\DataStructures.csproj.CoreCompileInputs.cache
 C:\Users\TeranL\Documents\Visual Studio 2017\Projects\DataStructures\DataStructures\obj\Debug\DataStructures.exe
 C:\Users\TeranL\Documents\Visual Studio 2017\Projects\DataStructures\DataStructures\obj\Debug\DataStructures.pdb
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures\bin\Debug\DataStructures.exe.config
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures\bin\Debug\DataStructures.exe
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures\bin\Debug\DataStructures.pdb
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures\obj\Debug\DataStructures.csproj.CoreCompileInputs.cache
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures\obj\Debug\DataStructures.exe
+C:\Users\1269458\Documents\Exercise\DataStructures\DataStructures\obj\Debug\DataStructures.pdb
